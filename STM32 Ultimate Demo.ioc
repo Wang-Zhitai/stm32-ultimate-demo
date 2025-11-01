@@ -2,7 +2,15 @@
 CAD.formats=
 CAD.pinconfig=
 CAD.provider=
-CORTEX_M7.IPParameters=default_mode_Activation
+CORTEX_M7.AccessPermission_Spec=MPU_REGION_FULL_ACCESS
+CORTEX_M7.BaseAddress_Spec=0xC0000000
+CORTEX_M7.CPU_DCache=Enabled
+CORTEX_M7.CPU_ICache=Enabled
+CORTEX_M7.IPParameters=default_mode_Activation,CPU_ICache,CPU_DCache,BaseAddress_Spec,Size_Spec,SubRegionDisable_Spec,IsShareable_Spec,IsCacheable_Spec,AccessPermission_Spec
+CORTEX_M7.IsCacheable_Spec=MPU_ACCESS_CACHEABLE
+CORTEX_M7.IsShareable_Spec=MPU_ACCESS_NOT_SHAREABLE
+CORTEX_M7.Size_Spec=MPU_REGION_SIZE_32MB
+CORTEX_M7.SubRegionDisable_Spec=0x00
 CORTEX_M7.default_mode_Activation=1
 DMA2D.ColorMode=DMA2D_OUTPUT_RGB888
 DMA2D.IPParameters=ColorMode

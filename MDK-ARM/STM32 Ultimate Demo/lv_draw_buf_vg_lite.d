@@ -1,0 +1,5 @@
+stm32 ultimate demo\lv_draw_buf_vg_lite.o: ..\lvgl\src\draw\vg_lite\lv_draw_buf_vg_lite.c
+stm32 ultimate demo\lv_draw_buf_vg_lite.o: ..\lvgl\src\draw\vg_lite\lv_draw_vg_lite.h
+stm32 ultimate demo\lv_draw_buf_vg_lite.o: ..\lvgl\src\draw\vg_lite\../../lv_conf_internal.h
+stm32 ultimate demo\lv_draw_buf_vg_lite.o: ..\lvgl\src\draw\vg_lite\../../lv_conf_kconfig.h
+stm32 ultimate demo\lv_draw_buf_vg_lite.o: ../lvgl/lv_conf.h

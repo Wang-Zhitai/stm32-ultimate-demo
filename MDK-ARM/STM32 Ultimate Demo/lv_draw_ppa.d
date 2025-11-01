@@ -1,0 +1,6 @@
+stm32 ultimate demo\lv_draw_ppa.o: ..\lvgl\src\draw\espressif\ppa\lv_draw_ppa.c
+stm32 ultimate demo\lv_draw_ppa.o: ..\lvgl\src\draw\espressif\ppa\lv_draw_ppa_private.h
+stm32 ultimate demo\lv_draw_ppa.o: ..\lvgl\src\draw\espressif\ppa\../../../lv_conf_internal.h
+stm32 ultimate demo\lv_draw_ppa.o: ..\lvgl\src\draw\espressif\ppa\../../../lv_conf_kconfig.h
+stm32 ultimate demo\lv_draw_ppa.o: ../lvgl/lv_conf.h
+stm32 ultimate demo\lv_draw_ppa.o: ..\lvgl\src\draw\espressif\ppa\lv_draw_ppa.h
