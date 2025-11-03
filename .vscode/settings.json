@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "bsp_gt911.h": "c",
+        "bsp.h": "c"
+    }
+}

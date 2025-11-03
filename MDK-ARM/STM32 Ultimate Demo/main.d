@@ -258,3 +258,4 @@ stm32 ultimate demo\main.o: ../lvgl/demos/benchmark/../lv_demos.h
 stm32 ultimate demo\main.o: ../lvgl/demos/benchmark/../benchmark/lv_demo_benchmark.h
 stm32 ultimate demo\main.o: ../lvgl/demos/benchmark/../widgets/lv_demo_widgets.h
 stm32 ultimate demo\main.o: ../lvgl/demos/benchmark/../widgets/../lv_demos.h
+stm32 ultimate demo\main.o: ..\BSP\bsp.h

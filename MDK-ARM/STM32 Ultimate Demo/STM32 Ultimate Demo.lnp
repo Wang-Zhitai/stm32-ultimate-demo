@@ -585,6 +585,9 @@
 "stm32 ultimate demo\lv_tileview.o"
 "stm32 ultimate demo\lv_win.o"
 "stm32 ultimate demo\lv_init.o"
+"stm32 ultimate demo\bsp.o"
+"stm32 ultimate demo\bsp_gt911.o"
+"stm32 ultimate demo\bsp_gt911_reg.o"
 --strict --scatter "STM32 Ultimate Demo\STM32 Ultimate Demo.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers

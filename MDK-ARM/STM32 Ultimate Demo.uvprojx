@@ -340,7 +340,7 @@
               <MiscControls></MiscControls>
               <Define>USE_PWR_LDO_SUPPLY,USE_HAL_DRIVER,STM32H743xx</Define>
               <Undefine></Undefine>
-              <IncludePath>../Core/Inc;../Drivers/STM32H7xx_HAL_Driver/Inc;../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy;../Drivers/CMSIS/Device/ST/STM32H7xx/Include;../Drivers/CMSIS/Include;../lvgl;../lvgl/demos;../lvgl/porting;../lvgl/src;../lvgl/demos/benchmark</IncludePath>
+              <IncludePath>../Core/Inc;../Drivers/STM32H7xx_HAL_Driver/Inc;../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy;../Drivers/CMSIS/Device/ST/STM32H7xx/Include;../Drivers/CMSIS/Include;../lvgl;../lvgl/demos;../lvgl/porting;../lvgl/src;../lvgl/demos/benchmark;..\BSP;..\BSP\Inc</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -3388,6 +3388,31 @@
               <FileName>lv_init.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\lvgl\src\lv_init.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>BSP</GroupName>
+          <Files>
+            <File>
+              <FileName>bsp.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\BSP\bsp.c</FilePath>
+            </File>
+            <File>
+              <FileName>bsp.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\BSP\bsp.h</FilePath>
+            </File>
+            <File>
+              <FileName>bsp_gt911.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\BSP\Src\bsp_gt911.c</FilePath>
+            </File>
+            <File>
+              <FileName>bsp_gt911_reg.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\BSP\Src\bsp_gt911_reg.c</FilePath>
             </File>
           </Files>
         </Group>
