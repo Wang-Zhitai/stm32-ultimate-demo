@@ -588,6 +588,15 @@
 "stm32 ultimate demo\bsp.o"
 "stm32 ultimate demo\bsp_gt911.o"
 "stm32 ultimate demo\bsp_gt911_reg.o"
+"stm32 ultimate demo\croutine.o"
+"stm32 ultimate demo\event_groups.o"
+"stm32 ultimate demo\list.o"
+"stm32 ultimate demo\queue.o"
+"stm32 ultimate demo\stream_buffer.o"
+"stm32 ultimate demo\tasks.o"
+"stm32 ultimate demo\timers.o"
+"stm32 ultimate demo\port.o"
+"stm32 ultimate demo\heap_4.o"
 --strict --scatter "STM32 Ultimate Demo\STM32 Ultimate Demo.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers

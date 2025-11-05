@@ -258,4 +258,13 @@ stm32 ultimate demo\main.o: ../lvgl/demos/benchmark/../lv_demos.h
 stm32 ultimate demo\main.o: ../lvgl/demos/benchmark/../benchmark/lv_demo_benchmark.h
 stm32 ultimate demo\main.o: ../lvgl/demos/benchmark/../widgets/lv_demo_widgets.h
 stm32 ultimate demo\main.o: ../lvgl/demos/benchmark/../widgets/../lv_demos.h
-stm32 ultimate demo\main.o: ..\BSP\bsp.h
+stm32 ultimate demo\main.o: ../BSP/bsp.h
+stm32 ultimate demo\main.o: ../FreeRTOS/Kernel/include/FreeRTOS.h
+stm32 ultimate demo\main.o: ../Core/Inc/FreeRTOSConfig.h
+stm32 ultimate demo\main.o: ../FreeRTOS/Kernel/include/projdefs.h
+stm32 ultimate demo\main.o: ../FreeRTOS/Kernel/include/portable.h
+stm32 ultimate demo\main.o: ../FreeRTOS/Kernel/include/deprecated_definitions.h
+stm32 ultimate demo\main.o: ../FreeRTOS/Kernel/portable/RVDS/ARM_CM7/r0p1/portmacro.h
+stm32 ultimate demo\main.o: ../FreeRTOS/Kernel/include/mpu_wrappers.h
+stm32 ultimate demo\main.o: ../FreeRTOS/Kernel/include/task.h
+stm32 ultimate demo\main.o: ../FreeRTOS/Kernel/include/list.h

@@ -42,6 +42,15 @@ stm32 ultimate demo\stm32h7xx_it.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7x
 stm32 ultimate demo\stm32h7xx_it.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h
 stm32 ultimate demo\stm32h7xx_it.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h
 stm32 ultimate demo\stm32h7xx_it.o: ../Core/Inc/stm32h7xx_it.h
+stm32 ultimate demo\stm32h7xx_it.o: ../FreeRTOS/Kernel/include/FreeRTOS.h
+stm32 ultimate demo\stm32h7xx_it.o: ../Core/Inc/FreeRTOSConfig.h
+stm32 ultimate demo\stm32h7xx_it.o: ../FreeRTOS/Kernel/include/projdefs.h
+stm32 ultimate demo\stm32h7xx_it.o: ../FreeRTOS/Kernel/include/portable.h
+stm32 ultimate demo\stm32h7xx_it.o: ../FreeRTOS/Kernel/include/deprecated_definitions.h
+stm32 ultimate demo\stm32h7xx_it.o: ../FreeRTOS/Kernel/portable/RVDS/ARM_CM7/r0p1/portmacro.h
+stm32 ultimate demo\stm32h7xx_it.o: ../FreeRTOS/Kernel/include/mpu_wrappers.h
+stm32 ultimate demo\stm32h7xx_it.o: ../FreeRTOS/Kernel/include/task.h
+stm32 ultimate demo\stm32h7xx_it.o: ../FreeRTOS/Kernel/include/list.h
 stm32 ultimate demo\stm32h7xx_it.o: ../lvgl/porting/lv_port_disp.h
 stm32 ultimate demo\stm32h7xx_it.o: ../lvgl/lvgl.h
 stm32 ultimate demo\stm32h7xx_it.o: ../lvgl/lv_version.h

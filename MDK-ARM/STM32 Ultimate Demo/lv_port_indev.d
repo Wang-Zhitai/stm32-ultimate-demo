@@ -205,9 +205,9 @@ stm32 ultimate demo\lv_port_indev.o: ../lvgl/src/lv_api_map_v9_1.h
 stm32 ultimate demo\lv_port_indev.o: ../lvgl/src/lv_api_map_v9_2.h
 stm32 ultimate demo\lv_port_indev.o: ../lvgl/src/lv_api_map_v9_3.h
 stm32 ultimate demo\lv_port_indev.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdio.h
-stm32 ultimate demo\lv_port_indev.o: ..\BSP\Inc\bsp_gt911.h
-stm32 ultimate demo\lv_port_indev.o: ..\BSP\Inc\bsp_gt911_reg.h
-stm32 ultimate demo\lv_port_indev.o: ..\BSP\Inc\bsp_gt911_conf.h
+stm32 ultimate demo\lv_port_indev.o: ../BSP/Inc/bsp_gt911.h
+stm32 ultimate demo\lv_port_indev.o: ../BSP/Inc/bsp_gt911_reg.h
+stm32 ultimate demo\lv_port_indev.o: ../BSP/Inc/bsp_gt911_conf.h
 stm32 ultimate demo\lv_port_indev.o: ../Core/Inc/i2c.h
 stm32 ultimate demo\lv_port_indev.o: ../Core/Inc/main.h
 stm32 ultimate demo\lv_port_indev.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h
